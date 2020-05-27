@@ -1,6 +1,6 @@
 # wormcells-de
 
-`wormcells-de` is a flask app that allows users to perform differential expression (DE) on single cell RNA sequencing data (scRNA-seq). Users can select cells to compare on a web interface, and submissions cause the spawn of a dedicated EC2 instance for computing the DE. In this deployment instances are configured to have 64GB RAM, allowing results to be emailed to users in less than 5 minutes.
+`wormcells-de` is a flask app that allows users to perform differential expression (DE) on single cell RNA sequencing data (scRNA-seq). Users can select cells to compare on a web interface, and submissions cause the spawn of a dedicated EC2 instance for computing the DE. In the deployment at [de.wormcells.com](https://de.wormcells.com) instances are configured to have 64GB RAM, allowing results to be emailed to users in less than 5 minutes.
 
 To perform differential expression we use [scVI ](https://scvi.readthedocs.io/en/stable/index.html) v0.6.3. The method for performing differential expression is the change option introduced in scVI v0.6.0 and described in [Boyeau et al, bioRxiv 2019 ](https://doi.org/10.1101/794289). It consists in estimating an effect size random variable (here, log2 fold-change) and performing Bayesian hypothesis testing on this variable.
 
