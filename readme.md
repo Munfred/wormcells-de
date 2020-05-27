@@ -10,7 +10,7 @@ A Python tutorial using Jupyter Notebooks on how to reproduce this analysis usin
 
 ## Deployment steps
 
-*Warning: these steps are not comprehensive, since it was mostly written down as a reminder for myself. Deployment for a different dataset can be done, but requires changes in several places. If you think deploying this would be useful for your work, let me know. *
+**Warning: these steps are not comprehensive, since it was mostly written down as a reminder for myself. Deployment for a different dataset can be done, but requires changes in several places. If you think deploying this would be useful for your work, let me know.**
 
 Production deployment is done following this guide from Digital Ocean: 
 https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-18-04
